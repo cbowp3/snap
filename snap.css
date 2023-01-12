@@ -1,0 +1,88 @@
+/* nav bar */
+
+body {
+    background-color: black;
+}
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(147, 231, 227);
+  }
+  
+  li {
+    border-right: 2px solid purple;
+    float: left;
+  }
+  
+  li a {
+    font-size: 125%;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: purple;
+  }
+
+  /*title*/
+
+
+/* logo */
+.logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%
+ 
+ 
+ }
+
+
+
+  .title {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    font-family: cursive, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+ 
+
+
+  div.gallery {
+    margin: 57px;
+    border: 10px solid rgb(147, 231, 227);
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 10px solid purple;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+  }
+
+
